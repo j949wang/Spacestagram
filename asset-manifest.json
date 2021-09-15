@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/spacestagram/static/css/main.94c77bb3.chunk.css",
-    "main.js": "/spacestagram/static/js/main.9dd388f7.chunk.js",
-    "main.js.map": "/spacestagram/static/js/main.9dd388f7.chunk.js.map",
-    "runtime-main.js": "/spacestagram/static/js/runtime-main.c77375b0.js",
-    "runtime-main.js.map": "/spacestagram/static/js/runtime-main.c77375b0.js.map",
-    "static/js/2.7627efe2.chunk.js": "/spacestagram/static/js/2.7627efe2.chunk.js",
-    "static/js/2.7627efe2.chunk.js.map": "/spacestagram/static/js/2.7627efe2.chunk.js.map",
-    "static/js/3.22ef1102.chunk.js": "/spacestagram/static/js/3.22ef1102.chunk.js",
-    "static/js/3.22ef1102.chunk.js.map": "/spacestagram/static/js/3.22ef1102.chunk.js.map",
-    "index.html": "/spacestagram/index.html",
-    "static/css/main.94c77bb3.chunk.css.map": "/spacestagram/static/css/main.94c77bb3.chunk.css.map",
-    "static/js/2.7627efe2.chunk.js.LICENSE.txt": "/spacestagram/static/js/2.7627efe2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/spacestagram/static/media/logo.6ce24c58.svg"
+    "main.css": "/Spacestagram/static/css/main.94c77bb3.chunk.css",
+    "main.js": "/Spacestagram/static/js/main.9dd388f7.chunk.js",
+    "main.js.map": "/Spacestagram/static/js/main.9dd388f7.chunk.js.map",
+    "runtime-main.js": "/Spacestagram/static/js/runtime-main.e700d277.js",
+    "runtime-main.js.map": "/Spacestagram/static/js/runtime-main.e700d277.js.map",
+    "static/js/2.7627efe2.chunk.js": "/Spacestagram/static/js/2.7627efe2.chunk.js",
+    "static/js/2.7627efe2.chunk.js.map": "/Spacestagram/static/js/2.7627efe2.chunk.js.map",
+    "static/js/3.22ef1102.chunk.js": "/Spacestagram/static/js/3.22ef1102.chunk.js",
+    "static/js/3.22ef1102.chunk.js.map": "/Spacestagram/static/js/3.22ef1102.chunk.js.map",
+    "index.html": "/Spacestagram/index.html",
+    "static/css/main.94c77bb3.chunk.css.map": "/Spacestagram/static/css/main.94c77bb3.chunk.css.map",
+    "static/js/2.7627efe2.chunk.js.LICENSE.txt": "/Spacestagram/static/js/2.7627efe2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Spacestagram/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c77375b0.js",
+    "static/js/runtime-main.e700d277.js",
     "static/js/2.7627efe2.chunk.js",
     "static/css/main.94c77bb3.chunk.css",
     "static/js/main.9dd388f7.chunk.js"
