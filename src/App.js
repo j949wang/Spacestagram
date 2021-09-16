@@ -1,23 +1,13 @@
 import logo from './logo.svg';
+import CardContainer from "./components/cardContainer"
 import './App.css';
+import Title from './components/title';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="cardTitle"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to Spacestagram
-        </a>
-      </header>
+    <div>
+      <Title text={"Spacestragram"}/>
+      <CardContainer />
     </div>
   );
 }
