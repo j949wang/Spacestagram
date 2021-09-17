@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CaLogo from "../img/CA_Glass_Logo_no_bg.png";
 
 class Card extends Component {
   render() {
@@ -12,14 +11,14 @@ class Card extends Component {
       <Container className="sectionContainer cardContainer" fluid>
         <Row className="cardRow"> 
           <Col className="cardCol cardImage" >
-            <Image src={CaLogo} fluid />
+            <Image src={cardSpec.url} fluid />
           </Col>
           <Col className="cardCol cardText" >
             <p className="cardTitle">
-              {cardSpec.company.name}
+              {cardSpec.title}
             </p>
-            <p className="positionTitle">{cardSpec.company.position}</p>
-            <p className="cardInfo">{cardSpec.description}</p>
+            <p className="positionTitle">{cardSpec.date}</p>
+            <p className="cardInfo">{cardSpec.explanation}</p>
           </Col>
         </Row>
       </Container>

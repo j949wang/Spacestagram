@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./card";
+import mockData from "../config/mockData.json"
 
 
 class CardContainer extends Component {
@@ -10,20 +11,22 @@ class CardContainer extends Component {
   //   // console.log(data)
   // }
   render() {
-    let mockData = {  "company": {
-                        "name": "NASA",
-                        "position": "Moon Image from NASA API"
-                      },
-                      "description": "Moon",
-                    }
+    // let mockData = {  "company": {
+    //                     "name": "NASA",
+    //                     "position": "Moon Image from NASA API"
+    //                   },
+    //                   "description": "Moon",
+    //                 }
     let cards = []
-    for (let i = 0; i < 5; i++) {
-      cards.push(<Card spec={mockData}/>)
+    console.log(mockData)
+
+    for (let i = 0; i < mockData.length; i++) {
+      console.log(mockData[i])
+      cards.push(<Card spec={mockData[i]}/>)
     }
 
     return (
         <div id="experienceContainer">
-          {/* <h1>HI IM JIAXI</h1> */}
           {cards}
         </div>
     );

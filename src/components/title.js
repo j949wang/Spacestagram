@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-
 class Title extends Component {
   componentDidMount() {
     const experience = document.getElementsByClassName("titleDescription")[0]
@@ -49,9 +48,9 @@ class Title extends Component {
   render() {
     return (
       <Container id="experience" className="sectionContainer" fluid>
+        
         <Row className="sectionTitle title">{this.props.text}</Row>
         <Row className="sectionTitle titleDescription">Welcome to Spacestagram. Take a gander at our selection of photos. Leave a like and share! </Row>
-    
       </Container>
     );
   }
