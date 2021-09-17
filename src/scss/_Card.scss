@@ -119,145 +119,146 @@ $theme-light-pink: #ffd1dc;
   color: #edae98;
 }
 
-@media screen and (max-width: 1199px) {
-  .cardContainer {
-    height: 45vw;
-  }
+// @media screen and (max-width: 1199px) {
+//   .cardContainer {
+//     height: 45vw;
+//   }
 
-  .cardCol.cardImage:nth-child(1) {
-    border-radius: 12px 12px 0 0;
-  }
+//   .cardCol.cardImage:nth-child(1) {
+//     border-radius: 12px 12px 0 0;
+//   }
 
-  .cardCol.cardImage:nth-child(2) {
-    border-radius: 12px 12px 0 0;
-  }
+//   .cardCol.cardImage:nth-child(2) {
+//     border-radius: 12px 12px 0 0;
+//   }
 
-  .cardCol.cardImage:nth-child(3) {
-    border-radius: 12px 12px 0 0;
-  }
+//   .cardCol.cardImage:nth-child(3) {
+//     border-radius: 12px 12px 0 0;
+//   }
 
-  .cardRow.cardRight .cardCol:nth-child(1) {
-    order: 2;
-  }
+//   .cardRow.cardRight .cardCol:nth-child(1) {
+//     order: 2;
+//   }
 
-  .cardRow.cardRight .cardCol:nth-child(2) {
-    order: 1;
-  }
+//   .cardRow.cardRight .cardCol:nth-child(2) {
+//     order: 1;
+//   }
 
-  .cardCol.cardImage {
-    width: 100%;
-    height: 55%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
+//   .cardCol.cardImage {
+//     width: 100%;
+//     height: 55%;
+//     padding-top: 2em;
+//     padding-bottom: 2em;
+//   }
 
-  .cardCol.cardText {
-    max-height: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
-  }
-}
+//   .cardCol.cardText {
+//     max-height: 40%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-top: 1em;
+//     margin-bottom: 2em;
+//   }
+// }
+
+// @media screen and (max-width: 1024px) {
+//   .cardContainer {
+//     height: 50vw;
+//   }
+
+//   .cardCol.cardImage img {
+//     max-width: 50%;
+//     height: auto;
+//   }
+
+//   .cardCol.cardImage:nth-child(2) img {
+//     min-width: initial;
+//     max-width: 70%;
+//   }
+
+//   .cardTitle {
+//     font-size: 2em;
+//   }
+
+//   .positionTitle {
+//     font-size: 1.4em;
+//     margin-bottom: 1em;
+//   }
+
+//   .cardInfo {
+//     font-size: 1em;
+//   }
+
+//   .cardStack {
+//     font-size: 1em;
+//     font-weight: 400;
+//   }
+// }
+// @media screen and (max-width: 817px) {
+//   .cardContainer {
+//     height: 60vw;
+//   }
+// }
 
 @media screen and (max-width: 1024px) {
-  .cardContainer {
-    height: 50vw;
-  }
+  //   .cardCol.cardImage img {
+  //     max-width: 65%;
+  //     height: auto;
+  //   }
 
-  .cardCol.cardImage img {
-    max-width: 50%;
-    height: auto;
-  }
-
-  .cardCol.cardImage:nth-child(2) img {
-    min-width: initial;
-    max-width: 70%;
-  }
-
-  .cardTitle {
-    font-size: 2em;
-  }
-
-  .positionTitle {
-    font-size: 1.4em;
-    margin-bottom: 1em;
-  }
-
-  .cardInfo {
-    font-size: 1em;
-  }
-
-  .cardStack {
-    font-size: 1em;
-    font-weight: 400;
-  }
-}
-@media screen and (max-width: 817px) {
-  .cardContainer {
-    height: 60vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cardCol.cardImage img {
-    max-width: 65%;
-    height: auto;
-  }
-
-  .positionTitle {
-    margin-bottom: 2em;
-  }
+  //   .positionTitle {
+  //     margin-bottom: 2em;
+  //   }
 
   .cardInfo {
     display: none;
   }
 
-  .cardStack {
-    font-size: initial;
-  }
+  //   .cardStack {
+  //     font-size: initial;
+  //   }
+  // }
+
+  // @media screen and (max-width: 600px) {
+  //   .cardContainer {
+  //     height: 70vw;
+  //   }
+
+  //   .positionTitle {
+  //     margin-bottom: 1em;
+  //   }
 }
 
-@media screen and (max-width: 600px) {
-  .cardContainer {
-    height: 70vw;
-  }
+// @media screen and (max-width: 460px) {
+//   .cardContainer {
+//     height: 70vw;
+//   }
 
-  .positionTitle {
-    margin-bottom: 1em;
-  }
-}
+//   .cardInfo {
+//     display: none;
+//   }
 
-@media screen and (max-width: 460px) {
-  .cardContainer {
-    height: 70vw;
-  }
+//   .cardTitle {
+//     font-size: 1.4em;
+//   }
 
-  .cardInfo {
-    display: none;
-  }
+//   .positionTitle {
+//     font-size: 1em;
+//     margin-bottom: 1em;
+//   }
 
-  .cardTitle {
-    font-size: 1.4em;
-  }
+//   .cardCol.cardImage img {
+//     max-width: 90%;
+//     height: auto;
+//   }
 
-  .positionTitle {
-    font-size: 1em;
-    margin-bottom: 1em;
-  }
+//   .cardRight .cardCol.cardImage img {
+//     max-width: 100%;
+//     height: auto;
+//   }
 
-  .cardCol.cardImage img {
-    max-width: 90%;
-    height: auto;
-  }
-
-  .cardRight .cardCol.cardImage img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .cardStack {
-    font-size: 0.7em;
-  }
-}
+//   .cardStack {
+//     font-size: 0.7em;
+//   }
+// }
+//
