@@ -3,10 +3,14 @@ import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import LikeButton from "./likeButton";
+import ShareButton from "./shareButton"
 
 class Card extends Component {
   render() {
     let cardSpec = this.props.spec;
+    let cardIndex = this.props.cardIndex;
+    
     return (
       <Container className="sectionContainer cardContainer" fluid>
         <Row className="cardRow"> 
@@ -19,6 +23,11 @@ class Card extends Component {
             </p>
             <p className="positionTitle">{cardSpec.date}</p>
             <p className="cardInfo">{cardSpec.explanation}</p>
+            
+          </Col>
+          <Col className="cardButton">
+            <LikeButton buttonIndex={cardIndex}/>   
+            <ShareButton buttonIndex={cardIndex}/> 
           </Col>
         </Row>
       </Container>

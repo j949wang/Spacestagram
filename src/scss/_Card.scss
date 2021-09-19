@@ -6,10 +6,6 @@ $theme-light-pink: #ffd1dc;
   background-color: #4f5b66;
 }
 
-.sectionContainer.cardContainer {
-  margin-bottom: 6em;
-}
-
 .cardContainer {
   padding-top: 4em;
   height: auto;
@@ -41,6 +37,16 @@ $theme-light-pink: #ffd1dc;
 .cardCol {
   justify-content: center;
   height: 100%;
+}
+
+.cardButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  // align-items: center;
+  border-radius: 0 0 12px 12px;
+  background-color: #65737e;
+  padding-bottom: 2em;
 }
 
 .cardCol.cardImage {
@@ -86,8 +92,7 @@ $theme-light-pink: #ffd1dc;
   flex-direction: column;
   align-items: center;
   padding-top: 4em;
-  padding-bottom: 4em;
-  border-radius: 0 0 12px 12px;
+  // padding-bottom: 2em;
   background-color: #65737e;
 }
 
@@ -118,6 +123,10 @@ $theme-light-pink: #ffd1dc;
   font-weight: 500;
   color: #edae98;
 }
+
+// .likeButton {
+//   color: white;
+// }
 
 // @media screen and (max-width: 1199px) {
 //   .cardContainer {

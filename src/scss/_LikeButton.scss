@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.likeButton {
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  border: white solid 1px;
+  padding: 0 6px 0 6px;
+  border-radius: 4px;
+  text-align: center;
+  .heartIcon {
+    color: #ff85a2;
+  }
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.likeButton:hover {
+  background-color: #fcaec171;
+  // color: rgba(255, 140, 167, 0.171);
+}
+
+.likePrompt {
+  opacity: 0;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.likePrompt.liked {
+  opacity: 1;
+}
+
+.shareButton {
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  height: auto;
+
+  border: white solid 1px;
+  padding: 0 6px 0 6px;
+  border-radius: 4px;
+  text-align: center;
+  .heartIcon {
+    color: #ff85a2;
+  }
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.shareButton:hover {
+  background-color: #fcaec171;
+}
+
+.cardButtonFrame {
+  width: 20%;
+  margin: 1em 1em 0 1em;
+}
