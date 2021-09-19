@@ -11,36 +11,39 @@ class LikeButton extends Component {
     this.sharedPicture = this.sharedPicture.bind(this);
   }
 
-  sharedPicture() {
+  sharedPicture(props) {
     if (!this.state.shared) {
       this.setState({
-        share: true
+        shared: true
       })
     } else {
       this.setState({
-        share: false
+        shared: false
       })
     }
+    console.log(`share link: ${this.props.shareLink}`)
+    navigator.clipboard.writeText(this.props.shareLink)
 
-    let elem = document.getElementsByClassName("shareButton")[this.state.index]
+    let elem = document.getElementsByClassName("sharePrompt")[this.state.index]
     let classes = elem.classList
     if (classes.contains("shared")) {
       classes.remove("shared")
     } else {
-      elem.classList.add("shared")
+      classes.add("shared")
+      setTimeout(() => {
+        classes.remove("shared")
+      }, 2000)
     }
   }
 
 
   render() {
     return(
-      <div className="cardButtonFrame" onClick={this.likedPicture}>
+      <div className="cardButtonFrame" onClick={this.sharedPicture}>
         <p className="shareButton">
-          {this.state.shared ? `You `: null}
-          {this.state.shared ? <AiOutlineShareAlt className="heartIcon"/> : <AiOutlineShareAlt />} share 
+           <AiOutlineShareAlt /> share 
         </p>
-        {this.state.shared ? <p className="likePrompt">Click to undo</p> : null}
-        
+        <p className="sharePrompt">Image link copied to clipboard!</p>
       </div>
     )
   }

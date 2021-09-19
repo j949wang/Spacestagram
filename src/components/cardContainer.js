@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "./card";
-// import mockData from "../config/mockData_2.json"
-import Spinner from "react-bootstrap/Spinner";
+// import mockData from "../config/mockData.json"
+import Loader from "./loader";
 
 
 class CardContainer extends Component {
@@ -34,8 +34,7 @@ class CardContainer extends Component {
 
     return (
         <div id="experienceContainer">
-          {this.state.loading ? <Spinner animation="border" variant="light"/> : this.state.imageArray}
-          {/* {cards} */}
+          {this.state.loading ? <Loader /> : this.state.imageArray}
         </div>
     );
   }

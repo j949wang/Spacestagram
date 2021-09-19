@@ -15,7 +15,7 @@ class Card extends Component {
       <Container className="sectionContainer cardContainer" fluid>
         <Row className="cardRow"> 
           <Col className="cardCol cardImage" >
-            <Image src={cardSpec.url} fluid />
+            {cardSpec.media_type === "image" ? <Image src={cardSpec.url} fluid /> : <iframe src={cardSpec.url} width={838} height={471} style={{borderRadius : '12px 12px 0 0'}}/>}
           </Col>
           <Col className="cardCol cardText" >
             <p className="cardTitle">
@@ -27,7 +27,7 @@ class Card extends Component {
           </Col>
           <Col className="cardButton">
             <LikeButton buttonIndex={cardIndex}/>   
-            <ShareButton buttonIndex={cardIndex}/> 
+            <ShareButton buttonIndex={cardIndex} shareLink={cardSpec.url}/> 
           </Col>
         </Row>
       </Container>

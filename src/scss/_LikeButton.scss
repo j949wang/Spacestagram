@@ -33,6 +33,31 @@
   opacity: 1;
 }
 
+.sharePrompt {
+  visibility: hidden;
+  opacity: 0;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.sharePrompt.shared {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  animation: fade 4s ease-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .shareButton {
   color: white;
   font-size: 1em;
