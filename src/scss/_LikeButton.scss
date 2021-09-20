@@ -46,13 +46,19 @@
   visibility: visible;
   opacity: 1;
   color: white;
-  animation: fade 4s ease-out;
+  animation: fade 4s linear forwards;
 }
 
 @keyframes fade {
   0% {
     opacity: 1;
   }
+  // 50% {
+  //   opacity: 1;
+  // }
+  // 75% {
+  //   opacity: 0.5;
+  // }
   100% {
     opacity: 0;
   }

@@ -10,7 +10,7 @@ class Footer extends Component {
           <Col className="footerCol">
             <p className="signoff">
               Please check out my website:
-              <a href="https://j949wang@github.io/personal-portfolio/"> Here</a>
+              <a href="https://j949wang@github.io/personal-portfolio/"> j949wang@github.io/personal-portfolio</a>
             </p>
             <p className="copyright">
               &#169; Last updated 2021. Jiaxi Wang. All rights reserved.
